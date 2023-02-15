@@ -1,25 +1,27 @@
 package br.com.cruzvita;
 
-public class Test implements InterfaceBanco{
+import java.util.Scanner;
+
+public class Test {
 	public static void main(String[] args) {
-		Banco conta = new Banco();
-		conta.sacar();
-		conta.depositarETransferir();
-		conta.criarConta();
-	}
-
-	public void sacar() {
 		
-	}
-
-	public void depositarETransferir() {
+		Conta conta1 = new Conta(1, 7, 2000);
+		Conta conta2 = new Conta(2, 7, 1500);
+		Scanner texto = new Scanner(System.in);
+		
+		System.out.println("Digite quanto você quer sacar: ");
+		float valor = texto.nextFloat();
+		
+		conta1.sacar(valor);
 		
 		
-	}
-
-	public void criarConta() {
 		
-
+		
 	}
+	
+    }
+	
+		
+	
 
-}
+
