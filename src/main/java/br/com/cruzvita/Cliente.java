@@ -1,6 +1,9 @@
 package br.com.cruzvita;
 
 public class Cliente {
-	public String cliente;
+	
+	public String nome;
+	public String sexo;
+	public int idade;
 
 }

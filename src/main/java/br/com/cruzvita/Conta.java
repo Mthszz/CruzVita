@@ -1,7 +1,10 @@
 package br.com.cruzvita;
 
 public class Conta {
-	public String conta;
+	
+	public float sacar;
+	public float depositarETransferir;
+	public String criarConta;
 		
 	}
 
