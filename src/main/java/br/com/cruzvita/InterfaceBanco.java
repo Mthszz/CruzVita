@@ -4,6 +4,6 @@ public interface InterfaceBanco {
 	
 	public void sacar(float valor);
 	public void depositar(float valor);
-	public void transferir(Conta to, float valor);
+	public void transferir(Conta destino, float valor);
 
 }

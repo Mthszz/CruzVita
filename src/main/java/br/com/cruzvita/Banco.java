@@ -1,8 +1,21 @@
 package br.com.cruzvita;
 
 public class Banco {
-	public String nome;
-	public String sexo;
-	public int idade;
+	private Cliente cliente;
+	private Conta conta;
+	private String bancoVita;
+
+	public String bancoVita() {
+		return "Banco Vita ";
+	}
+
+	public Cliente Cliente() {
+		return cliente;
+
+	}
+
+	public Conta Conta() {
+		return conta;
+	}
 
 }
